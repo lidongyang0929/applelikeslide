@@ -1,0 +1,29 @@
+*{box-sizing: border-box;padding: 0;margin: 0;}
+.window{
+    width: 920px;height: 400px;
+    overflow: hidden;
+    border: 1px solid #d9d9d9;
+    border-bottom: none;}
+.images{   
+    display: flex; 
+    transition: all .3s;   
+}
+.buttons{
+    width: 920px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #d9d9d9;
+}
+.buttons > div{
+    width: 58px;height: 42px;  
+    border: 1px solid  #cccccc;
+}
+.buttons img{width: 26px;height: 26px;margin-top: 6px;}
+.grey{
+    background: grey;
+}
+.main{
+    width: 920px;
+    margin: 0 auto;
+}
